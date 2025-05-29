@@ -4,7 +4,7 @@ A simple MERN stack e-commerce web app for browsing gadgets, adding to cart, and
 
 ## 🔗 Live Demo
 
-[https://prime-gadgets.vercel.app](https://prime-gadgets.vercel.app)
+[https://prime-gadgets-3cqd.vercel.app](https://prime-gadgets-3cqd.vercel.app)
 
 ## 🚀 Tech Stack
 

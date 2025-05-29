@@ -15,7 +15,7 @@ import { stripeWebhooks } from "./controllers/orderController.js";
 
 const app = express();
 
-const allowedOrigins = ['http://localhost:5173', 'https://ecommerce-webapp-tp34.vercel.app'];
+const allowedOrigins = ['http://localhost:5173', 'https://prime-gadgets-3cqd.vercel.app'];
 
 //create DB connection
 await connectDB(process.env.MONGODB_URI);

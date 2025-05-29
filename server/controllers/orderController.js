@@ -85,7 +85,7 @@ export const placeOrderStripe = async (req, res) => {
         //create line items for strip
         const line_items = productData.map((item) => ({
             price_data: {
-                currency: "usd",
+                currency: "LKR",
                 product_data: {
                     name: item.name
                 },

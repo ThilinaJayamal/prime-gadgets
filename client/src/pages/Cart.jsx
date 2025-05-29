@@ -149,7 +149,7 @@ function Cart() {
                                     </div>
                                 </div>
                             </div>
-                            <p className="text-center">${product.offerPrice * product.quantity}</p>
+                            <p className="text-center">Rs.{product.offerPrice * product.quantity}</p>
                             <button onClick={() => removeFromCart(product._id)}
                                 className="cursor-pointer mx-auto">
                                 <img src={assets.remove_icon} alt="" className='inline-block size-6' />
@@ -224,11 +224,11 @@ function Cart() {
                         </p>
                         <p className="flex justify-between">
                             <span>Tax (2%)</span>
-                            <span>${getCartAmount() * 0.02}</span>
+                            <span>Rs.{getCartAmount() * 0.02}</span>
                         </p>
                         <p className="flex justify-between text-lg font-medium mt-3">
                             <span>Total Amount:</span>
-                            <span>${(getCartAmount() * 0.02) + getCartAmount()}</span>
+                            <span>Rs.{(getCartAmount() * 0.02) + getCartAmount()}</span>
                         </p>
                     </div>
 

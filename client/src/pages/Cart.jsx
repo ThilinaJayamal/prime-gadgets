@@ -216,7 +216,7 @@ function Cart() {
 
                     <div className="text-gray-500 mt-4 space-y-2">
                         <p className="flex justify-between">
-                            <span>Price</span><span>${getCartAmount()}</span>
+                            <span>Price</span><span>Rs.{getCartAmount()}</span>
                         </p>
                         <p className="flex justify-between">
                             <span>Shipping Fee</span>
